@@ -15,7 +15,7 @@ import org.example.Polimorfizm.Square;
 public class Main {
 
     public static void main(String[] args) {
-        // refrencja  nazwa własna = nowy obiekt
+        // refrencja  nazwa własna = nowy obiekt - proces Agregacji
         Person personOne = new Person("Adam", "Kowalski", 35);
         BanAccount bankAccount = new BanAccount(personOne);
         System.out.println(bankAccount.getOwner().getFirstName() + " " + bankAccount.getOwner().getLastName());
