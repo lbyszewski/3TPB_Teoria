@@ -4,6 +4,10 @@ import lombok.Data;
 
 @Data
 public class Fraction {
+
+    // Anotacja @Data służy do zapewnienia takich rzeczy jak : Getter , Setter , ToString , EqualAndHashCode, Constructors itp.
+    // gettery i settery oraz wszystkie inne rzeczy można stworzyć na podstawie właściwości
+    // poprzez naciśnięcie kombinacji klawiszy alt + insert
     private  double licznik;
     private  double mianownik;
 
@@ -26,12 +30,12 @@ public class Fraction {
 
     private Fraction [] doWspolnego(Fraction first, Fraction last){
         double licznikP = first.getLicznik() * last.getMianownik();
-        double licznikd = last.getLicznik() * first.getMianownik();
+        double licznikD = last.getLicznik() * first.getMianownik();
         double nowyMianownik = first.getMianownik() * last.getMianownik();
 
 
         Fraction newFractionOne = new Fraction(licznikP,nowyMianownik);
-        Fraction newFractionTwo = new Fraction(licznikd,nowyMianownik);
+        Fraction newFractionTwo = new Fraction(licznikD,nowyMianownik);
 
         Fraction [] tablica = new Fraction[2];
         tablica[0] = newFractionOne;
