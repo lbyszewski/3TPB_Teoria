@@ -1,0 +1,50 @@
+Typscript - jezyk programowania obiektowego , którego ewolucja wywodzi się z języka Javascript. Jest on stosowany 
+do frameworków takich jak: AngularJS lub ReactJS.
+
+1. Tworzenie pierwszego projektu
+2. kompilacja projektu
+3. podobieństwa i różnice związane z innym językiem programowania
+
+Po uruchomieniu VSC tworzymy otwieramy dowolną lokalizację na dysku wskazując na wcześniej utworozny folder w którym będą znajdowały się nasze projekty.
+- Tworzymy plik o dowolnej nazwie z rozszerzeniem .ts np.  pierwszy.ts
+- Wpisujemy kod Console.log("Hello World !!!");
+- kompilujemy kod w teminalu za pomocą komendy  tsc pierwszy.ts
+- w przypadku prawidłowej kompilacja powinien utworzyć się plik  pierwszy.js 
+- to jest twój pierwszy skrypt w Typescript. Teraz przejdziemy do bardziej rozbudowanych rzeczy
+
+
+Typescript OOP - Programowanie obiektowe
+
+Typescript jak i inne języki programowania posiada coś więcej niż tylko proste typy danych takie jak:
+- klasy 
+- konstruktory
+- getter i settery 
+- metody 
+- właściwości 
+- moduły 
+- obiekty
+- interface 
+- Hermetyzację 
+- Dziedziczenie
+- Abstrakcję 
+- Polimorfizm
+
+
+Działając na plikach stwórz w folderze 3TPB_Teoria lub nazwie którą nadałeś tworząc pierwszy plik, dwa pliki:
+
+- Object.ts i Execute.ts
+- Object.ts będzie plikem w , którym będą znajdować się klasy lub klasa exportowalna 
+- Execute.ts - będzie plikiem wywoławczym 
+P.S. Analogicznie do Języka Python w którym stosowanie modułów usprawnia pracę i separuje kod na mniejsze bloki
+
+1. Stworzyliśmy plik Object.ts w którym umieszczono następujace elementy kodu(zobacz plik Excecute.ts):
+    - export class Something
+    - wewenątrz klasy 3 property o nazwach pisanych camelCase i typach  liczbowych oraz modyfikatorach private
+    - kontruktor na podstawie property
+    - gettery i settery na podstawie property
+    - metodę zwracaną
+    - metodę nie zwracaną
+
+
+
+
