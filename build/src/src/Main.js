@@ -2,11 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Dog_js_1 = require("./Dog.js");
 const Person_js_1 = require("./Person.js");
-const Ulamek_js_1 = require("./Ulamek.js");
 let person = new Person_js_1.Person("Lukasz", "Byszewski");
 person.sayHello();
 let animal = new Dog_js_1.Dog(10, "Polska");
 animal.sayHello();
-let ulamek = new Ulamek_js_1.Ulamek(4, 3);
-let ulamek2 = new Ulamek_js_1.Ulamek(4, 3);
-ulamek.dodaj(ulamek2);

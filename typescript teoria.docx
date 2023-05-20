@@ -45,6 +45,13 @@ P.S. Analogicznie do Języka Python w którym stosowanie modułów usprawnia pra
     - metodę zwracaną
     - metodę nie zwracaną
 
+2. Folder o nazwie src zawiera:
+ - pliki: Animal - klasa abstrakcyjna - zawrtość metody abstrakcyjne oraz Dog klasa pochodna:
+    -dziedzcząca metody klasy abastakcyjnej
+    - posiadająca w swoim konstruktorze słow klucozwe super() używane w celu nadpisania konstruktora z klasy Animal(konstruktor niewidoczny - bez argumentowy)
+    - dziedziczenie metod abstakcyjnych odbywa się poprzez nadpisanie ich w klasie pochodnej
+    - proces ten nazywamy Polimorfizmem
+
 
 
 
