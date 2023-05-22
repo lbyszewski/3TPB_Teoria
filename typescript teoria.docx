@@ -11,7 +11,7 @@ Po uruchomieniu VSC tworzymy otwieramy dowolną lokalizację na dysku wskazując
 - kompilujemy kod w teminalu za pomocą komendy  tsc pierwszy.ts
 - w przypadku prawidłowej kompilacja powinien utworzyć się plik  pierwszy.js 
 - to jest twój pierwszy skrypt w Typescript. Teraz przejdziemy do bardziej rozbudowanych rzeczy
-
+- uruchamiamy plik .js  poleceniem node pierwszy.js
 
 Typescript OOP - Programowanie obiektowe
 
